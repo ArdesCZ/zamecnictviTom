@@ -1,0 +1,97 @@
+{block defaultAdmin}
+
+    <br/>
+    {foreach $flashes as $flash}
+        <div class="flash {$flash->type} font-weight-bold text-success text-center"><h5
+                    class="font-weight-bold">{$flash->message}</h5></div>
+    {/foreach}
+
+
+    <!-- Modal (vyskakující okno) pro smazání zvolené fotografie -->
+    <div class="modal" tabindex="-1" id="smazModalPortfolio" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title"><strong>Smazání vybrané fotografie </strong></h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body text-center">
+                    <p><h4 class="text-danger">Varování,</h4> opravdu si přeješ smazat tuto fotografii?</p>
+                </div>
+
+                <form n:name="formVymazPortfolio">
+                    <div class="form-group">
+                        <input n:name="idPortfoliaV" type="hidden" id="idPortfoliaV" class="form-control">
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Zavřít</button>
+                        <button n:name="odeslatV" class="btn btn-danger">Smazat fotografii</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div><!-- /Modal smaž  -->
+
+
+    <!-- Formulář pro nahrání nové fotografie začátek -->
+    <div class="container justify-content-md-center">
+        <form n:name="formVlozPortfolio" class="form-inline bg-light border border-dark justify-content-md-center" enctype="multipart/form-data">
+                <div class="form-group mb-1 mx-sm-3">
+                    <input n:name="file" type="file" class="form-control-file">
+                </div>
+                <div class="form-group mb-1 mx-sm-2">
+                    <button n:name="odeslat" type="submit" class="btn btn-primary mb-2">Uložit fotografii</button>
+                </div>
+        </form> <!-- Formulář pro nahrání nové fotografie konec -->
+
+    </div>
+    <br/>
+
+    <section id="fotoSprava" class="bg-light">
+        <div class="row">
+            <div class="col-lg-8 mx-auto">
+                <br/>
+                <h2 class="text-center">Úprava portfolia</h2>
+                <hr class="divider light my-4"/>
+
+                <div class="container-fluid p-0">
+                    <div class="row no-gutters">
+                        {foreach $adminSekce as $foto}
+                            <div class="col-lg-4 col-sm-6">
+                                <div class="card text-center bg-light gallery" style="width: 18rem;">
+                                    <div id="{$foto->idPortfolia}" class="col">
+                                        <a class="portfolio-box" href="{$basePath}/obrazky/portfolio/{$foto->nazev}">
+                                            <img class="img-fluid card-img-top"
+                                                 src="{$basePath}/obrazky/portfolio/{$foto->nazev}" alt=""/>
+                                        </a>
+                                        <div class="card-body">
+
+                                            <button type="button" class="btn btn-danger btn-block" style="height: 40px;"
+                                                    data-id="{$foto->idPortfolia}"
+                                                    data-role="deleteFoto" data-toggle="modal"
+                                                    data-target="#smazModalPortfolio" id="odeslatV">
+                                                <svg width="1.5em" height="1.5em" viewBox="0 0 16 16"
+                                                     class="bi bi-x-circle" fill="currentColor"
+                                                     xmlns="http://www.w3.org/2000/svg">
+                                                    <path fill-rule="evenodd"
+                                                          d="M8 15A7 7 0 1 0 8 1a7 7 0 0 0 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                                                    <path fill-rule="evenodd"
+                                                          d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
+                                                </svg>
+                                            </button>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        {/foreach}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Sekce portfolio end -->
+
+{/block}

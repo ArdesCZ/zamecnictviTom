@@ -1,0 +1,346 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+          integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="{$basePath}/obrazky/favicon.ico" type="image/x-icon">
+
+    <!-- Magnific-popup.js -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.tutorialjinni.com/magnific-popup.js/1.1.0/magnific-popup.css" />
+    <link rel="stylesheet" type="text/css" href="https://cdn.tutorialjinni.com/magnific-popup.js/1.1.0/magnific-popup.min.css" />
+
+    <title>Zámečnictví - Tomáš </title>
+
+
+    <style>
+        /* Extra small devices (portrait phones, less than 576px) */
+        @media (max-width: 575.98px) {
+
+            .login-container{
+                margin-top: 5%;
+                margin-bottom: 5%;
+            }
+
+            .login-container form{
+                padding: 10%;
+            }
+
+            .login-form{
+                padding: 5%;
+                box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 9px 26px 0 rgba(0, 0, 0, 0.19);
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                font-size: 20px;
+            }
+
+            .btnSubmit{
+                width: 50%;
+                border-radius: 1rem;
+                padding: 1.5%;
+                border: none;
+                cursor: pointer;
+                font-weight: 600;
+                color: #fff;
+                background-color: #0062cc;
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+            }
+
+        }
+
+        /* Small devices (landscape phones, 576px and up) */
+        @media (min-width: 576px) and (max-width: 767.98px) {
+
+            .carousel-inner img {
+                max-height: 250px;
+            }
+
+            .login-container{
+                margin-top: 5%;
+                margin-bottom: 5%;
+            }
+
+            .login-container form{
+                padding: 10%;
+            }
+
+            .login-form{
+                padding: 5%;
+                box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 9px 26px 0 rgba(0, 0, 0, 0.19);
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                font-size: 20px;
+            }
+
+            .btnSubmit{
+                width: 50%;
+                border-radius: 1rem;
+                padding: 1.5%;
+                border: none;
+                cursor: pointer;
+                font-weight: 600;
+                color: #fff;
+                background-color: #0062cc;
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+            }
+
+        }
+
+        /* Medium devices (tablets, 768px and up) */
+        @media (min-width: 768px) and (max-width: 991.98px) {
+
+            .carousel-inner img {
+                max-height: 350px;
+            }
+
+            .login-container{
+                margin-top: 5%;
+                margin-bottom: 5%;
+            }
+
+            .login-container form{
+                padding: 10%;
+            }
+
+            .login-form{
+                padding: 5%;
+                box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 9px 26px 0 rgba(0, 0, 0, 0.19);
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                font-size: 20px;
+            }
+
+            .btnSubmit{
+                width: 50%;
+                border-radius: 1rem;
+                padding: 1.5%;
+                border: none;
+                cursor: pointer;
+                font-weight: 600;
+                color: #fff;
+                background-color: #0062cc;
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+            }
+
+        }
+
+        /* Large devices (desktops, 992px and up) */
+        @media (min-width: 992px) and (max-width: 1199.98px) {
+
+            .carousel-inner img {
+                max-height: 400px;
+            }
+
+            .login-container{
+                margin-top: 5%;
+                margin-bottom: 5%;
+            }
+
+            .login-container form{
+                padding: 10%;
+            }
+
+            .login-form{
+                padding: 5%;
+                box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 9px 26px 0 rgba(0, 0, 0, 0.19);
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                font-size: 20px;
+            }
+
+            .btnSubmit{
+                width: 50%;
+                border-radius: 1rem;
+                padding: 1.5%;
+                border: none;
+                cursor: pointer;
+                font-weight: 600;
+                color: #fff;
+                background-color: #0062cc;
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+            }
+
+        }
+
+        /* Extra large devices (large desktops, 1200px and up) */
+        @media (min-width: 1200px) {
+
+            .carousel-inner img {
+                max-height: 400px;
+            }
+
+            section {
+                padding: 70px 0;
+            }
+
+            .login-container{
+                margin-top: 5%;
+                margin-bottom: 5%;
+            }
+
+            .login-container form{
+                padding: 10%;
+            }
+
+            .login-form{
+                padding: 5%;
+                box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 9px 26px 0 rgba(0, 0, 0, 0.19);
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                font-size: 20px;
+            }
+
+            .btnSubmit{
+                width: 50%;
+                border-radius: 1rem;
+                padding: 1.5%;
+                border: none;
+                cursor: pointer;
+                font-weight: 600;
+                color: #fff;
+                background-color: #0062cc;
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+            }
+
+        }
+    </style>
+</head>
+
+<body>
+<!-- Navigation -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
+    <div class="container">
+        <a class="navbar-brand js-scroll-trigger" href="../">Zámečnictví - Tomáš </a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+                data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
+                aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto my-2 my-lg-0">
+                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="../#onas">O nás</a></li>
+                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="../#sluzby">Služby</a></li>
+                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="../#foto">Portfolio</a></li>
+                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="../#kontakt">Kontakt</a></li>
+                <li class="nav-item"><a class="nav-link js-scroll-trigger" n:href="Homepage:prihlasit">Přihlásit</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<!-- Navigation end -->
+
+<!-- Carousel -->
+<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="{$basePath}/obrazky/carousel/carousel1.JPG" class="d-block w-100 " alt="carousel1">
+        </div>
+        <div class="carousel-item">
+            <img src="{$basePath}/obrazky/carousel/carousel2.jpg" class="d-block w-100 " alt="carousel2">
+        </div>
+        <div class="carousel-item">
+            <img src="{$basePath}/obrazky/carousel/carousel3.jpg" class="d-block w-100 " alt="carousel3">
+        </div>
+        <div class="carousel-item">
+            <img src="{$basePath}/obrazky/carousel/carousel4.jpg" class="d-block w-100 " alt="carousel4">
+        </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+    </a>
+</div>
+<!-- Carousel end -->
+
+
+<!-- Sekce prihlasit -->
+<section id="prihlasit" class="bg-light">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 mx-auto">
+                <br/>
+                <h2 class="text-center">Přihlásit se</h2>
+                <hr class="divider light my-4"/>
+                <div class="container login-container">
+                    <div class="row">
+                        <div class="col-md-10 login-form">
+                            <form n:name="signInForm" class="form-signin">
+                                <div class="form-group">
+                                    <label n:name="uzivatelskeJmeno" for="uzivJM">Uživatelské jméno:</label>
+                                    <input n:name="uzivatelskeJmeno" type="text" class="form-control" id="uzivJM" placeholder="Uživatelské jméno*" value="" />
+                                </div>
+                                <div class="form-group">
+                                    <label n:name="heslo" for="password">Heslo:</label>
+                                    <input n:name="heslo" type="password" class="form-control" id="password" placeholder="Heslo*" value="" />
+                                </div>
+                                <br/>
+                                <div class="form-group">
+                                    <input n:name="odeslat" type="submit" class="btnSubmit" value="Přihlásit" />
+                                    <br/>
+                                    {foreach $flashes as $flash}
+                                        <div class="flash {$flash->type} font-weight-bold text-danger text-center"><br/><h5
+                                                    class="font-weight-bold">{$flash->message}</h5><br/></div>
+                                    {/foreach}
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Sekce prihlasit end -->
+
+
+<br/>
+
+<footer class="py-4 bg-dark">
+    <div class="container">
+        <p class="m-0 text-center text-white">Copyright &copy; Martin30.com 2020</p>
+    </div>
+    <!-- /.container -->
+</footer>
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
+<!-- Magnific-popup.js -->
+<script src="https://cdn.tutorialjinni.com/magnific-popup.js/1.1.0/jquery.magnific-popup.js"></script>
+<script src="https://cdn.tutorialjinni.com/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+<!-- Custom JavaScript for this theme -->
+<script src="{$basePath}/js/scripts.js"></script>
+
+
+</body>
+</html>

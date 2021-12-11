@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c2873d5f-870a-46db-82cd-49f09d94da41" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/latte/latte" />
+      <path value="$PROJECT_DIR$/vendor/nette/application" />
+      <path value="$PROJECT_DIR$/vendor/nette/bootstrap" />
+      <path value="$PROJECT_DIR$/vendor/nette/caching" />
+      <path value="$PROJECT_DIR$/vendor/nette/component-model" />
+      <path value="$PROJECT_DIR$/vendor/nette/database" />
+      <path value="$PROJECT_DIR$/vendor/nette/di" />
+      <path value="$PROJECT_DIR$/vendor/nette/finder" />
+      <path value="$PROJECT_DIR$/vendor/nette/forms" />
+      <path value="$PROJECT_DIR$/vendor/nette/http" />
+      <path value="$PROJECT_DIR$/vendor/nette/mail" />
+      <path value="$PROJECT_DIR$/vendor/nette/neon" />
+      <path value="$PROJECT_DIR$/vendor/nette/php-generator" />
+      <path value="$PROJECT_DIR$/vendor/nette/robot-loader" />
+      <path value="$PROJECT_DIR$/vendor/nette/routing" />
+      <path value="$PROJECT_DIR$/vendor/nette/schema" />
+      <path value="$PROJECT_DIR$/vendor/nette/security" />
+      <path value="$PROJECT_DIR$/vendor/nette/tester" />
+      <path value="$PROJECT_DIR$/vendor/nette/utils" />
+      <path value="$PROJECT_DIR$/vendor/tracy/tracy" />
+      <path value="$PROJECT_DIR$/vendor/symfony/thanks" />
+      <path value="$PROJECT_DIR$/vendor/composer" />
+    </include_path>
+  </component>
+  <component name="ProjectId" id="1iSVrNjVbMxu1fMB90pr6VWgNBh" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\zamecnictviTom\app\Presenters\templates\Homepage" />
+      <recent name="C:\xampp\htdocs\zamecnictviTom\app\Presenters\templates\Foto" />
+      <recent name="C:\xampp\htdocs\zamecnictviTom\app\Presenters" />
+      <recent name="C:\xampp\htdocs\zamecnictviTom\app\Presenters\templates\Portfolio" />
+    </key>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c2873d5f-870a-46db-82cd-49f09d94da41" name="Default Changelist" comment="" />
+      <created>1601901177967</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1601901177967</updated>
+      <workItem from="1601901182031" duration="6936000" />
+      <workItem from="1602052050173" duration="3833000" />
+      <workItem from="1602317337566" duration="5947000" />
+      <workItem from="1602327769999" duration="6653000" />
+      <workItem from="1602398066812" duration="3244000" />
+      <workItem from="1602423334684" duration="11616000" />
+      <workItem from="1602503545575" duration="9493000" />
+      <workItem from="1602519422125" duration="1780000" />
+      <workItem from="1602572615213" duration="323000" />
+      <workItem from="1602572952493" duration="53000" />
+      <workItem from="1602573015569" duration="23000" />
+      <workItem from="1602573047878" duration="4125000" />
+      <workItem from="1602596811780" duration="3191000" />
+      <workItem from="1602666253186" duration="1267000" />
+      <workItem from="1602674932726" duration="9862000" />
+      <workItem from="1602749977698" duration="2741000" />
+      <workItem from="1602760361093" duration="601000" />
+      <workItem from="1602761136094" duration="4203000" />
+      <workItem from="1602918568451" duration="6185000" />
+      <workItem from="1602932219390" duration="14098000" />
+      <workItem from="1603007650343" duration="5333000" />
+      <workItem from="1603023014528" duration="8304000" />
+      <workItem from="1638268604344" duration="29000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="361" y="72" key="#Notifications" timestamp="1602317521915">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="72" key="#Notifications/0.0.1536.824@0.0.1536.824" timestamp="1602317521915" />
+    <state x="499" y="168" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1603010278569">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="499" y="168" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1536.824@0.0.1536.824" timestamp="1603010278569" />
+    <state x="549" y="168" key="FileChooserDialogImpl" timestamp="1601901356911">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="168" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1601901356911" />
+    <state x="561" y="228" key="NewPhpClassDialog" timestamp="1602936579140">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="561" y="228" key="NewPhpClassDialog/0.0.1536.824@0.0.1536.824" timestamp="1602936579140" />
+    <state x="604" y="337" key="NewPhpFileDialog" timestamp="1602936551670">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="604" y="337" key="NewPhpFileDialog/0.0.1536.824@0.0.1536.824" timestamp="1602936551670" />
+    <state x="277" y="56" key="SettingsEditor" timestamp="1602573037694">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="277" y="56" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1602573037694" />
+    <state x="425" y="187" key="run.anything.popup" timestamp="1602519324350">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1602519324350" />
+  </component>
+</project>

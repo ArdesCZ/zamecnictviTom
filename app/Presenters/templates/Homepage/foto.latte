@@ -1,0 +1,40 @@
+{block foto}
+
+    <!-- Sekce portfolio end -->
+    <section id="portfolio" class="bg-light">
+        <div class="row">
+            <div class="col-lg-8 mx-auto">
+                <br/>
+                <h2 class="text-center">Portfolio</h2>
+                <hr class="divider light my-4"/>
+
+                <div class="container-fluid p-0">
+                    <div class="row no-gutters">
+
+                        {foreach $fotky as $portfolio}
+                            <div class="col-lg-4 col-sm-6">
+
+
+                                    <a class="portfolio-box" href="{$basePath}/obrazky/portfolio/{$portfolio->nazev}">
+                                        <img class="img-fluid" src="{$basePath}/obrazky/portfolio/{$portfolio->nazev}" alt=""/>
+                                    </a>
+
+                            </div>
+                        {/foreach}
+
+                     {**       <div class="col-lg-4 col-sm-6">
+                                <a class="portfolio-box" href="{$basePath}/obrazky/portfolio/1.jpg">
+                                    <img class="img-fluid" src="{$basePath}/obrazky/portfolio/1.jpg" alt=""/>
+                                </a>
+                            </div> **}
+
+
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+    <!-- Sekce portfolio end -->
+{/block}
